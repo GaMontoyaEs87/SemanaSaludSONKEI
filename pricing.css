@@ -1,0 +1,36 @@
+body {
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-image: url('tu-imagen-de-fondo.jpg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta correcta a tu imagen */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Color del texto en el pie de página */
+  padding: 20px 0; /* Espaciado interno en la parte superior e inferior del pie de página */
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 10px 0; /* Reducir el espaciado para dispositivos más pequeños */
+  }
+}
